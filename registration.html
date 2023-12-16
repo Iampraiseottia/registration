@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     
 <body>
     <section id="JOIN">
@@ -24,23 +25,45 @@
             
         </article> 
 
-        <aside>
+        <form action="/" id="form">
             <div class="gray">
-                <h2>
+                <h2 style="color: chocolate;">
                     Register Here
-                </h2>
+                </h2>   
+
+                <div class="name-content">
+                    <input id="name" type="text" class="name" placeholder="Name">
+                </div>
+
+                <div class="username-content">
+                    <input id="Username" type="text" class="Username" placeholder="Username">
+                </div>
+
+                <div class="email-content">
+                    <input id="Email" type="text" class="Email" placeholder="Email">
+                </div>
+
+                <div class="country">
+                    <input id="Country" type="text" class="Password" placeholder="Country">
+                </div>
     
-                <input type="text" class="name" placeholder="Name"><br>
-                <input type="text" class="Username" placeholder="Username"><br>
-                <input type="text" class="Email" placeholder="Email"><br>
-                <input type="text" class="Password" placeholder="Password"><br>
-    
+                <div class="password-content">
+                    <input id="Password" type="text" class="Password" placeholder="Password">
+                </div>  
+
+                <div class="confirm">
+                    <input id="Confirm-password" type="password" class="Email" placeholder="Confirm Password">
+                </div>
+
                 <button class="love">
                     Register
                 </button>
             </div>
 
-        </aside>
+        </form>
     </section>
+
+    <script src="registration.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
