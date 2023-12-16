@@ -68,10 +68,12 @@ form{
     margin-top: 100px;
 }
 
-.name,
-.Password,
-.Email,
-.Username{
+.name-content input,
+.username-content input,
+.email-content input,
+.password-content input,
+.country input,
+.confirm input{
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 4px;
@@ -102,8 +104,27 @@ h2{
     border-radius: 1rem;
 }
 
-input:focus{
-    outline: red;
-    border: 2px solid chocolate;
-    background-color: rgb(251, 255, 255);
+ input:focus{
+    outline: 0;
+    /* border: 2px solid chocolate; */
+    /* background-color: rgb(251, 255, 255); */
+}
+
+.name-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-content.success input{
+    border-color: lightseagreen;
+}
+
+.name-content.error input{
+    border-color: red;
+}
+
+.name-content .error{
+    color: red;
+    font-size: 9px;
+    height: 13px;
 }
