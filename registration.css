@@ -73,7 +73,8 @@ form{
 .email-content input,
 .password-content input,
 .country input,
-.confirm input{
+.confirm input,
+.Country{
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 4px;
