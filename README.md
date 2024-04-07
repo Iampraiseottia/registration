@@ -4,3 +4,4 @@ These also helps the organization gives room for users to register and hence kee
 
 Helps colletct personal details of customer 
 
+First step towards belonging to a platform
